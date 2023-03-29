@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5826eba-583c-4f8b-ad73-6df336bd8a84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MyAssignment.java" afterDir="false" />
+    <list default="true" id="c5826eba-583c-4f8b-ad73-6df336bd8a84" name="Changes" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BirthdayName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EveryOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EveryOther.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HasPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HasPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LuckySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LuckySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MissingFront.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MissingFront.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NonStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NonStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PowerOfTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseDoubleChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseDoubleChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwapEnds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwapEnds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EveryOther.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HasPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LuckySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MissingFront.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NonStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PowerOfTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseDoubleChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwapEnds.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,18 @@
       <option name="presentableId" value="Default" />
       <updated>1678797515239</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1680056157549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680056157549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>

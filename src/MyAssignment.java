@@ -9,70 +9,63 @@ import java.util.Scanner;
  */
 public class MyAssignment {
     private Scanner input;
+
     public static void main(String[] args) {
-        BirthdayName instance = new BirthdayName();
-        instance.input = new Scanner(System.in);
-        String output = instance.birthdayName();
-        System.out.println(output);
+        MyAssignment instance = new MyAssignment();
+        System.out.println(instance.birthdayName("Jah"));
+        System.out.println(instance.sumDigits(5678));
+        System.out.println(instance.missingFront("123456"));
+        System.out.println(instance.reverseDoubleChar("Chicken"));
+        System.out.println(instance.swapEnds("Hello There"));
+        System.out.println(instance.everyOther("Codingbat"));
+        System.out.println(instance.luckySum(5,13,4));
+        System.out.println(instance.powerOfTwo(10));
+        System.out.println(instance.hasPalindrome("Racecar"));
 
 
     }
 
-    public String BirthdayName() {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter a name: ");
-        String name = input.nextLine();
-        String result = "";
-        result = result + "Happy Birthday " + name + "! ";
-        return result;
+    public String birthdayName(String name ) {
+      return("Happy Birthday " + name + "!");
     }
-    public String MissingFront(){
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter a string: ");
-        String str = input.nextLine();
+
+    public String missingFront(String str) {
         String result = "";
         result = result + str.substring(3);
         return result;
     }
-    public String ReverseDoubleChar() {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String str = input.nextLine();
+
+    public String reverseDoubleChar(String word) {
         String result = "";
-        for (int i = str.length() - 1; i >= 0; i--) {
-            result = result + str.charAt(i) + str.charAt(i);
+        for (int i = word.length() - 1; i >= 0; i--) {
+            result = result + word.charAt(i) + word.charAt(i);
         }
         return result;
     }
-    public String SwapEnds(){
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter a string: ");
-        String str = input.nextLine();
+
+    public String swapEnds(String str) {
         String result = "";
         String first;
         String last;
         String mid;
-        if(str.length() > 1){
-            first = str.substring(0,1);
-            last = str.substring(str.length()-1);
-            mid = str.substring(1, str.length()-1);
-            return result = result + last + mid + first;
+        if (str.length() > 1) {
+            first = str.substring(0, 1);
+            last = str.substring(str.length() - 1);
+            mid = str.substring(1, str.length() - 1);
+             result = result + last + mid + first;
         }
-        return result = result + str;
+        return  result ;
     }
-    public String EveryOther(){
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter a string: ");
-        String str = input.nextLine();
+
+    public String everyOther(String str) {
         String result = "";
-        for(int i = 0; i < str.length(); i += 2){
+        for (int i = 0; i < str.length(); i += 2) {
             result = result + str.charAt(i);
         }
         return result;
     }
-    public int SumDigits() {
-        System.out.println("Enter an integer: ");
-        int n = input.nextInt();
+
+    public int sumDigits(int n) {
         if (n == 0) {
             return 0;
         } else {
@@ -84,13 +77,8 @@ public class MyAssignment {
             return sum;
         }
     }
-    public int LuckySum() {
-        System.out.println("Enter an integer: ");
-        int a = input.nextInt();
-        System.out.println("Enter another  integer: ");
-        int b = input.nextInt();
-        System.out.println("Enter another integer: ");
-        int c = input.nextInt();
+
+    public int luckySum(int a, int b, int c) {
         if (a == 13) {
             return 0;
         } else if (b == 13) {
@@ -101,9 +89,8 @@ public class MyAssignment {
             return a + b + c;
         }
     }
-    public boolean PowerOfTwo() {
-        System.out.println("Enter an integer to see if it is a power of 2: ");
-        int n = input.nextInt();
+
+    public boolean powerOfTwo(int n) {
         if (n == 0) {
             return false;
         } else {
@@ -117,18 +104,16 @@ public class MyAssignment {
             } while (true);
         }
     }
-    public boolean HasPalindrome() {
-        System.out.println("Enter a sentence: ");
-        String str = input.nextLine();
+
+    public boolean hasPalindrome(String str) {
         str = str.toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
         for (int i = 0; i < str.length(); i++) {
-            // check for odd-length palindromes
             int left = i - 1;
             int right = i + 1;
             while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
                 return true;
             }
-            // check for even-length palindromes
+
             left = i;
             right = i + 1;
             while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
@@ -137,5 +122,6 @@ public class MyAssignment {
         }
         return false;
     }
+}
 
 
